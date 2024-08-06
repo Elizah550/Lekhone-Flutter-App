@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';
 
-//colors
-const Color kPrimaryColor = Color.fromARGB(255, 66, 167, 66);
+//colors Color(0xFFFFCE00
+//const Color kPrimaryColor = Color.fromARGB(255, 66, 167, 66);
+const Color kPrimaryColor = Color(0xFFFFCE00);
 const Color kSecondaryColor = Color(0xFF6789CA);
 const Color kTextBlackColor = Color(0xFF313131);
 const Color kTextWhiteColor = Color.fromARGB(255, 18, 18, 18);

@@ -1,4 +1,4 @@
-import 'package:Warehouse/screens/constants.dart';
+import 'package:Lekhone/screens/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -7,12 +7,12 @@ class DefaultButton extends StatelessWidget {
   final String title;
   final IconData iconData;
 
-  const DefaultButton(
-      {Key? key,
-      required this.onPress,
-      required this.title,
-      required this.iconData})
-      : super(key: key);
+  const DefaultButton({
+    Key? key,
+    required this.onPress,
+    required this.title,
+    required this.iconData,
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -23,7 +23,8 @@ class DefaultButton extends StatelessWidget {
         height: SizerUtil.deviceType == DeviceType.tablet ? 9.h : 7.h,
         decoration: BoxDecoration(
             gradient: const LinearGradient(
-              colors: [kSecondaryColor, kPrimaryColor],
+              // colors: [kSecondaryColor, kPrimaryColor],
+              colors: [Colors.black, Colors.black],
               begin: FractionalOffset(0.0, 0.0),
               end: FractionalOffset(0.5, 0.0),
               stops: [0.0, 1.0],
@@ -34,7 +35,12 @@ class DefaultButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Spacer(),
-            Text(title, style: Theme.of(context).textTheme.titleSmall),
+            Text(
+              title,
+              style: TextStyle(
+                  fontFamily: 'Poppins', color: Colors.white, fontSize: 18),
+            ),
+            // Text(title, style: Theme.of(context).textTheme.titleSmall),
             const Spacer(),
             Icon(
               iconData,

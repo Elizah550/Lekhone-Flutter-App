@@ -1,6 +1,7 @@
-import 'package:Warehouse/routes.dart';
-import 'package:Warehouse/screens/splash_screen.dart';
-import 'package:Warehouse/screens/theme.dart';
+import 'package:Lekhone/routes.dart';
+import 'package:Lekhone/screens/Splashscreen/splash_screen.dart';
+import 'package:Lekhone/screens/theme.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
     return Sizer(builder: (context, orientation, device) {
       return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Ware House',
+        title: 'Lekhone',
         theme: CustomTheme().baseTheme,
         //initial route is splash screen
         //mean first screen

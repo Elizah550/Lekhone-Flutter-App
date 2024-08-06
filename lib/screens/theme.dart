@@ -28,7 +28,8 @@ class CustomTheme {
       labelStyle: TextStyle(
           fontSize: 11.sp, color: kTextLightColor, fontWeight: FontWeight.w400),
       //hint style
-      hintStyle: const TextStyle(fontSize: 16.0, color: kTextBlackColor, height: 0.5),
+      hintStyle:
+          const TextStyle(fontSize: 16.0, color: kTextBlackColor, height: 0.5),
       //we are using underline input border
       //not outline
       enabledBorder: const UnderlineInputBorder(

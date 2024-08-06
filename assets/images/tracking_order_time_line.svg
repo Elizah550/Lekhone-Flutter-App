@@ -1,0 +1,13 @@
+<svg width="18" height="306" viewBox="0 0 18 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="9" cy="9" r="5" fill="#FFD700"/> <!-- Yellow fill -->
+  <circle cx="9" cy="9" r="8.5" stroke="#000000"/> <!-- Black stroke -->
+  <circle cx="9" cy="105" r="5" fill="#FFD700"/> <!-- Yellow fill -->
+  <circle cx="9" cy="105" r="8.5" stroke="#000000"/> <!-- Black stroke -->
+  <circle cx="9" cy="201" r="5" fill="#FFD700"/> <!-- Yellow fill -->
+  <circle cx="9" cy="201" r="8.5" stroke="#000000"/> <!-- Black stroke -->
+  <circle cx="9" cy="297" r="5" fill="#000000"/> <!-- Black fill -->
+  <circle cx="9" cy="297" r="8.5" stroke="#000000"/> <!-- Black stroke -->
+  <path d="M9 18V96" stroke="#000000" stroke-dasharray="2 2"/> <!-- Black stroke -->
+  <path d="M9 114V192" stroke="#000000" stroke-dasharray="2 2"/> <!-- Black stroke -->
+  <path d="M9 210V288" stroke="#000000" stroke-dasharray="2 2"/> <!-- Black stroke -->
+</svg>
