@@ -1,4 +1,4 @@
-# Flutter uber | Google Autocomplete | Directions
+# Flutter | Google Autocomplete | Directions
 
 A new Flutter application.
 
